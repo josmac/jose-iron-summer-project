@@ -1,0 +1,23 @@
+{
+  "name": "jose-iron-summer-project",
+  "version": "1.0.0",
+  "description": "jose-iron-summer-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josmac/jose-iron-summer-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josmac/jose-iron-summer-project/issues"
+  },
+  "homepage": "https://github.com/josmac/jose-iron-summer-project#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
