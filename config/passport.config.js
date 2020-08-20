@@ -7,8 +7,8 @@ const randomPassword = () => Math.random().toString(36).substring(7)
   
 const google = new GoogleStrategy(
     {
-    clientID: "678813995057-51i2ro7leudcdhc3j304uand0t1flclu.apps.googleusercontent.com",
-    clientSecret: "MGiwv2dGsgsuf_Q9spIA4032",
+    clientID: process.env.GOOGLE_CLIENT_ID,
+    clientSecret: process.env.GOOGLE_CLIENT_SECRET,
     callbackURL: "/auth/google/callback"
     },
     (accessToken, refreshToken, profile, next) => {
